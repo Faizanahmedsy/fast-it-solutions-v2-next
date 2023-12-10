@@ -13,10 +13,12 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <NavBar />
-        {children}
+        <div className="relative h-full">
+          <NavBar />
+          {children}
+          <Footer />
+        </div>
       </body>
-      <Footer />
     </html>
   );
 }
