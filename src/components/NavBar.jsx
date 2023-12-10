@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import React, { useState } from "react";
 
 const NavBar = () => {
@@ -48,12 +49,12 @@ const NavBar = () => {
             </button>
           </div>
           <div className="hidden lg:flex lg:gap-x-12">
-            <a
-              href="#"
+            <Link
+              href="/services"
               className="text-sm font-semibold leading-6 text-gray-900"
             >
               Services
-            </a>
+            </Link>
             <a
               href="#"
               className="text-sm font-semibold leading-6 text-gray-900"
