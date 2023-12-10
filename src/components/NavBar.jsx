@@ -52,25 +52,25 @@ const NavBar = () => {
               href="#"
               className="text-sm font-semibold leading-6 text-gray-900"
             >
-              Product
+              Services
             </a>
             <a
               href="#"
               className="text-sm font-semibold leading-6 text-gray-900"
             >
-              Features
+              About Us
             </a>
             <a
               href="#"
               className="text-sm font-semibold leading-6 text-gray-900"
             >
-              Marketplace
+              Contact Us
             </a>
             <a
               href="#"
               className="text-sm font-semibold leading-6 text-gray-900"
             >
-              Company
+              Technology Strategy
             </a>
           </div>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
