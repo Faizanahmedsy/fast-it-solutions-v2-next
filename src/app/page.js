@@ -1,4 +1,4 @@
-import HeroSection from "@/components/HeroSection";
+import { AboutUs, HeroSection, OurFeatures } from "@/components";
 import CTA from "@/components/cta";
 import Features from "@/components/features";
 import Pricing from "@/components/pricing";
@@ -11,6 +11,10 @@ export default function Home() {
     <>
       <HeroSection />
 
+      <OurFeatures />
+
+      <AboutUs />
+      {/* 
       <Features />
 
       <Testimonial />
@@ -19,7 +23,7 @@ export default function Home() {
 
       <CTA />
 
-      <Pricing />
+      <Pricing /> */}
     </>
   );
 }
